@@ -1,0 +1,10 @@
+{
+  "name": "build-something",
+  "displayName": "Build Something",
+  "version": "0.1.0",
+  "description": "For people who don't code: describe an app idea and Claude sets up your computer, shows you prototypes, builds it, and puts it online as a Cloudflare link you can share. Run /build-something.",
+  "author": { "name": "osroc-labs", "url": "https://osroc.io" },
+  "repository": "https://github.com/osroc-labs/build-something",
+  "license": "MIT",
+  "keywords": ["beginner", "cloudflare", "workers", "durable-objects", "prototype"]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "build-something",
+  "owner": { "name": "osroc-labs", "url": "https://osroc.io" },
+  "description": "Build Something: from an idea to a live app, no coding needed.",
+  "plugins": [
+    {
+      "name": "build-something",
+      "source": "./",
+      "description": "Describe an app idea; Claude sets up your computer, prototypes it with you, builds it on Cloudflare Workers + Durable Objects, and gives you a live link. Run /build-something.",
+      "version": "0.1.0"
+    }
+  ]
+}

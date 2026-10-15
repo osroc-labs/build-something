@@ -1,13 +1,16 @@
 {
   "name": "build-something",
-  "owner": { "name": "osroc-labs", "url": "https://osroc.io" },
+  "owner": {
+    "name": "osroc-labs",
+    "url": "https://osroc.io"
+  },
   "description": "Build Something: from an idea to a live app, no coding needed.",
   "plugins": [
     {
       "name": "build-something",
       "source": "./",
-      "description": "Describe an app idea; Claude sets up your computer, prototypes it with you, builds it on Cloudflare Workers + Durable Objects, and gives you a live link. Run /build-something.",
-      "version": "0.1.0"
+      "description": "For people who don't code: describe an app idea and Claude sets up your computer, shows you prototypes as artifacts to pick from, builds a website or iPhone app (Expo) on Cloudflare Workers + Durable Objects, and gives you a live link. Run /build-something.",
+      "version": "0.2.0"
     }
   ]
 }
